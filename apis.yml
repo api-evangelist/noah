@@ -1,7 +1,26 @@
 aid: noah
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noah.png
 name: Noah
-description: Noah is a company surfaced as a portfolio company of union-square-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Noah (originally founded as Patch Homes in 2016 and rebranded to Noah in 2020)
+  was a US-based home-equity investment fintech backed by Union Square Ventures.
+  It offered homeowners up-front financing in exchange for a share of their home's
+  future appreciation, as an interest-free, no-monthly-payment alternative to a
+  HELOC or cash-out refinance. The company raised roughly $156M across five rounds
+  from seven investors before ceasing operations in 2024. This record is retained
+  in the API Evangelist network as a historical VC-portfolio lead; no live public
+  API, developer portal, or documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/noah/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,22 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: >-
+  Ceased operations in 2024. Former domains patchhomes.com (NXDOMAIN) and
+  noah.co (parked / for-sale via GoDaddy) no longer host a live product or API.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Home Equity
+- Mortgage
+- Real Estate
+- Lending
+- Financial Services
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.patchhomes.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
