@@ -32,7 +32,7 @@ x-status: defunct
 x-status-detail: >-
   Ceased operations in 2024. Former domains patchhomes.com (NXDOMAIN) and
   noah.co (parked / for-sale via GoDaddy) no longer host a live product or API.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
